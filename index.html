@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+    <head>
+        <title> itsnandibby </title>
+        <link rel="shortcut icon"
+        href="itsnandibby.jpg">
+        <meta charset="UTF-8">
+        <style>
+            body{
+                background-color: #000000;
+            }
+            .dreamy{
+                position: fixed;
+                color: #ffffff;
+                background-color: transparent;
+                text-shadow: -3px 5px 8px #00ffff;
+                font-family: "Courier New", monospace;
+                text-align: center;
+                font-size: 25px;
+                z-index: 3;
+            }
+            #your-div-id{
+                width: 450px;
+                top: 25%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 25px;
+                color: #ffffff;
+            }
+            #dream-two{
+                width: 300px;
+                top: 35%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 25px;
+                color: #ffffff;
+            }
+            #dream-three{
+                width: 300px;
+                top: 45%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 25px;
+                color: #ffffff;
+            }
+            img{
+                position: fixed;
+                opacity: .6;
+                border-radius: 15px 50px 30px 5px;
+                width: 300px;
+                height: 300px;
+            }
+            .dreamyimg{
+                transition: opacity 3s ease-in;
+            }
+            .dreamyimg:hover{
+                opacity: 1;
+            }
+            #\[home-dreams\]{
+                top: 5%;
+                left: 5%;
+                z-index: 1;
+                transition: height 3s ease-in, opacity 3s ease-in;
+            }
+            #\[home-dreams\]:hover{
+                height: 400px;
+            }
+            #\[vibram-dreams\]{
+                top: 5%;
+                right: 5%;
+                left: unset;
+                z-index: 2;
+                transition: opacity 3s ease-in;
+            }
+            video{
+                position: fixed;
+                width: 30vw;
+                height: 200px;
+                top: 65%;
+                left: 50%;
+                transform: translateX(-50%);
+                z-index: -1;
+            }
+            #[dream-link]:link{
+                color: #ffffff;
+                text-decoration: none;
+            }
+            #[dream-link]:visited{
+                color: #ffffff;
+                text-decoration: none;
+            }
+            #[dream-link]:hover{
+                color: #ffffff;
+                font-style: italic;
+            }
+            #[dream-link]:active{
+                color: #ffffff;
+            }
+            #softly-span{
+                font-weight: bold;
+                letter-spacing: 4px;
+                color: #ffffff;
+            }
+            #becoming-span{
+                text-transform: uppercase;
+                letter-spacing: 6px;
+                color: #ffffff;
+                font-weight: 300;
+            }
+            #nandi{z-index: 4000;}
+        </style>
+    </head>
+    <body>
+        <a href="Nandi.html" id="nandi">Go to second page</a>
+        <video loop controls muted id="[video-dreams]" src="video-dreams.mp4" type="video/mp4"></video>
+        <a href="https://www.youtube.com/watch?v=UYwhisrQ-po&list=RDUYwhisrQ-po&start_radio=1"><img class="dreamyimg" id="[home-dreams]" src="love-dreams.jpg"></a>
+        <a href="https://www.youtube.com/watch?v=THh4fT0O7IY"><img class="dreamyimg" id="[vibram-dreams]" src="vibram-dreams.jpg"></a>
+        <div class="dreamy" id="your-div-id">[It's ok to learn while you're <a id="[dream-link]" href="https://www.youtube.com/watch?v=THh4fT0O7IY">still <span id="becoming-span">becoming</span></a>]</div>
+        <div class="dreamy" id="dream-two">softly <span id="softly-span">falling</span><br>into place</div>
+        <div class="dreamy" id="dream-three">stay in the moment</div>
+    </body>
+</html>
